@@ -1,0 +1,120 @@
+/*--------------------------------------------------------------
+# login signup
+--------------------------------------------------------------*/
+.social a {
+    display: flex;
+    box-sizing: border-box;
+    width: 100% !important;
+    align-items: center;
+    text-decoration: none;
+    color: #6d6d6d;
+    padding: 5px 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #e4e5e7;
+    transition: 0.5s;
+    border-radius: 4px;
+  }
+  
+  .social .socialicon {
+    margin-right: 4px;
+    font-size: 22px;
+  }
+  
+  .socialtext {
+    margin: auto;
+  }
+  
+  .social a:hover {
+    background-color: #eee;
+  }
+  
+  .social .facebook {
+    background: #3b5998;
+    color: #fff;
+  }
+  
+  .social .facebook:hover {
+    background-color: #3B566E;
+  }
+  
+  .or {
+    position: relative;
+    margin: 26px 0;
+    border-top: 1px solid #ddd;
+  }
+  
+  .or span {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    color: #6d6d6d;
+    background: #ffff;
+    border-radius: 50%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -19px;
+    left: calc(50% - 19px);
+  }
+  
+  .forminput {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #c5c6c9;
+    border-radius: 4px;
+    box-shadow: none;
+    font: inherit;
+    color: #404145;
+    -webkit-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
+  }
+  
+  .forminput:hover,
+  .forminput:focus {
+    outline: none;
+    border-color: #95979d;
+    box-shadow: none;
+  }
+  
+  .user_form .btn {
+    background-color: #1dbf73;
+    border-color: #1dbf73;
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  .user_form .btn:hover {
+    background: #19a463;
+    border-color: #19a463;
+  }
+  
+  .forgot-password a {
+    float: right;
+    font-size: 15px;
+    color: #19a463;
+    text-decoration: underline;
+  }
+  
+  .modal-footer {
+    justify-content: center;
+  }
+  
+  .formfooter {
+    font-weight: 600;
+  }
+  
+  @media (min-width: 576px) {
+    .login ,.signup {
+      max-width: 400px;
+    }
+  
+    .course-right-site {
+      margin-top: -220px;
+      /* width: 320px; */
+    }
+  }
+  
